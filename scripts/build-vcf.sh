@@ -20,7 +20,7 @@ phg create-maf-vcf                                                          \
     -o data/vcf
 
 # Load VCFs into TileDB
-phg load-vcf         \
-    --vcf data/vcf   \
-    --db-path tiledb \
+phg load-vcf           \
+    --vcf-dir data/vcf \
+    --db-path tiledb   \
     --threads 32
