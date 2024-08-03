@@ -21,16 +21,16 @@ phg prepare-assemblies                       \
 #           Exception in thread "main" java.lang.IllegalArgumentException: Error running ProcessBuilder for agc create or append: Error running ProcessBuilder to compress agc files: 132
 #       It's likely that agc was compiled with an instruction set that your CPU does not support
 #       Compile agc from source (https://github.com/refresh-bio/agc) and adjust your PATH so that your own compiled agc is used instead
-phg agc-compress                                                            \
-    --db-path tiledb                                                        \
-    --reference-file data/reference/GCF_003254395.2_Amel_HAv3.1_genomic.fna \
+phg agc-compress                                \
+    --db-path tiledb                            \
+    --reference-file data/fastas/Amel_HAv3.1.fa \
     --fasta-list assemblies.txt
 
 # Create BED file from GFF for reference range coordinates
-phg create-ranges                                                           \
-    --reference-file data/reference/GCF_003254395.2_Amel_HAv3.1_genomic.fna \
-    --gff data/reference/genomic.gff                                        \
-    --boundary gene                                                         \
-    --pad 500                                                               \
-    --range-min-size 500                                                    \
+phg create-ranges                               \
+    --reference-file data/fastas/Amel_HAv3.1.fa \
+    --gff data/reference/genomic.gff            \
+    --boundary gene                             \
+    --pad 500                                   \
+    --range-min-size 500                        \
     -o bee.bed

@@ -19,3 +19,6 @@ conda env create -f environment.yml && conda activate phgv2-conda
 
 # 3.C. Build the PHG: Create and Load VCFs into TileDB
 ./scripts/build-vcf.sh
+
+# 4. Imputation using the PHG
+./scripts/impute.sh

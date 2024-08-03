@@ -5,8 +5,8 @@
 
 # Align assemblies
 mkdir -p data/align
-phg align-assemblies                                                        \
-    --gff data/reference/genomic.gff                                        \
-    --reference-file data/reference/GCF_003254395.2_Amel_HAv3.1_genomic.fna \
-    --assembly-file-list assemblies.txt                                     \
+phg align-assemblies                            \
+    --gff data/reference/genomic.gff            \
+    --reference-file data/fastas/Amel_HAv3.1.fa \
+    --assembly-file-list assemblies.txt         \
     -o data/align

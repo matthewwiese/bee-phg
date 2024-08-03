@@ -5,18 +5,18 @@
 
 mkdir -p data/vcf
 # Create HVCF data from ref
-phg create-ref-vcf                                                          \
-    --db-path tiledb                                                        \
-    --bed bee.bed                                                           \
-    --reference-file data/reference/GCF_003254395.2_Amel_HAv3.1_genomic.fna \
+phg create-ref-vcf                              \
+    --db-path tiledb                            \
+    --bed bee.bed                               \
+    --reference-file data/fastas/Amel_HAv3.1.fa \
     --reference-name Amel_HAv3.1
 
 # Create HVCF and GVCF data from assembly alignments against ref
-phg create-maf-vcf                                                          \
-    --db-path tiledb                                                        \
-    --bed bee.bed                                                           \
-    --reference-file data/reference/GCF_003254395.2_Amel_HAv3.1_genomic.fna \
-    --maf-dir data/align                                                    \
+phg create-maf-vcf                               \
+    --db-path tiledb                             \
+    --bed bee.bed                                \
+    --reference-file data/fastas/Amel_HAv3.1.faa \
+    --maf-dir data/align                         \
     -o data/vcf
 
 # Load VCFs into TileDB

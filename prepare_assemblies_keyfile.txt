@@ -1,3 +1,4 @@
+data/reference/GCF_003254395.2_Amel_HAv3.1_genomic.fna	Amel_HAv3.1
 data/assemblies/GCA_003314205.2_INRA_AMelMel_1.1_genomic.fna	INRA_AMelMel_1.1
 data/assemblies/GCA_013841245.2_ASM1384124v2_genomic.fna	ASM1384124v2
 data/assemblies/GCA_019321825.1_ASM1932182v1_genomic.fna	ASM1932182v1
