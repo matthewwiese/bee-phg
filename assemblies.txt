@@ -1,0 +1,4 @@
+data/fastas/Amel_4.5.fa
+data/fastas/ASM1384124v2.fa
+data/fastas/ASM1932182v1.fa
+data/fastas/INRA_AMelMel_1.1.fa
