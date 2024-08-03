@@ -12,11 +12,11 @@ phg create-ref-vcf                              \
     --reference-name Amel_HAv3.1
 
 # Create HVCF and GVCF data from assembly alignments against ref
-phg create-maf-vcf                               \
-    --db-path tiledb                             \
-    --bed bee.bed                                \
-    --reference-file data/fastas/Amel_HAv3.1.faa \
-    --maf-dir data/align                         \
+phg create-maf-vcf                              \
+    --db-path tiledb                            \
+    --bed bee.bed                               \
+    --reference-file data/fastas/Amel_HAv3.1.fa \
+    --maf-dir data/align                        \
     -o data/vcf
 
 # Load VCFs into TileDB
