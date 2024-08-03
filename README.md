@@ -31,3 +31,29 @@ So maybe I should start with the Wragg et al. data as they provide a VCF with ma
 
 * [Genetic markers for the resistance of honey bee to Varroa destructor](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8763714/)
     * Table top of page 5 of interest
+
+## Running Conda within tmux cannot find Conda
+I have a weird PATH problem with Conda and tmux that necessitates me to deactivate after entering a tmux session. When I enter a tmux session and activate an environment, the PATH inexplicably loses conda:
+
+```
+(base) matt@machine:~$ echo $PATH
+/home/matt/miniconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/matt/phg/bin
+(base) matt@machine:~$ conda activate phgv2-conda
+(phgv2-conda) matt@machine:~$ echo $PATH
+/home/matt/miniconda3/envs/phgv2-conda/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/matt/phg/bin
+```
+
+Remembering to deactivate *out of base* fixes it:
+
+```
+(base) matt@machine:~$ echo $PATH
+/home/matt/miniconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/matt/phg/bin
+(base) matt@machine:~$ conda deactivate
+matt@machine:~$ echo $PATH
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/matt/phg/bin
+matt@machine:~$ conda activate phgv2-conda
+(phgv2-conda) matt@machine:~$ echo $PATH
+/home/matt/miniconda3/envs/phgv2-conda/bin:/home/matt/miniconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/matt/phg/bin
+```
+
+Totally unrelated to the PHG but there is a nonzero chance it confuses somebody else too, especially when you want to use tmux for long-running commands like AnchorWave. I have found multiple GitHub issues with people who have the same problem over the years... ¯\\_(ツ)_/¯
