@@ -3,6 +3,11 @@ Testing an idea related to [VSH](https://www.ars.usda.gov/southeast-area/baton-r
 
 Currently focused on using all available genomes on NCBI to build the PHG and [BioProject PRJNA605407](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA605407) short reads for imputation. Although perhaps [BioProject PRJNA311274](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA311274) is more useful for a first pass given that we can compare to their VCF? Apparently using drones instead of workers allows for sequencing at lower depth and with greater variant detection, plus reducing phasing complication (Wragg et al. 2022).
 
+In 2020, Jensen et al. wrote on the topic of the PHG:
+> Skim sequence data are aligned to consensus haplotypes to find the best path through the graph, and single nucleotide polymorphism (SNP) variants from the predicted haplotype path can be written to a variant call format (VCF) file. The result is a set of genome-wide SNP variant calls for each taxon, imputed from skim sequence.
+
+So maybe I should start with the Wragg et al. data as they provide a VCF with many SNPs that could be compared to the SNPs imputed from PHG pathfinding? I would also like to utilize the Saelao et al. data as I think it would be more relevant to me as a beekeeper in the U.S. and provide insight into which stocks I should pursue for my apiary.
+
 * [Genome-wide patterns of differentiation within and among U.S. commercial honey bee stocks](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7545854/)
     * This is the publication associated with the reads I'm using
     * Page 6 - 7:
