@@ -3,8 +3,8 @@
 # Big thanks to https://sra-explorer.info for making this easy
 
 cd data
-mkdir -p fastq
-cd fastq
+mkdir -p fastq/PRJNA605407
+cd fastq/PRJNA605407
 
 curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/088/SRR11038088/SRR11038088_1.fastq.gz -o SRR11038088_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
 curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/088/SRR11038088/SRR11038088_2.fastq.gz -o SRR11038088_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
