@@ -1,6 +1,4 @@
-data/assemblies/GCA_000819425.1_Ami_v1_genomic.fna	BlidaHaddad
-data/assemblies/GCA_003314205.2_INRA_AMelMel_1.1_genomic.fna	ACANBOUESSANT
-data/assemblies/GCA_013841205.1_ASM1384120v1_genomic.fna	Jilin02
-data/assemblies/GCA_013841245.2_ASM1384124v2_genomic.fna	Jilin01
-data/assemblies/GCA_019321825.1_ASM1932182v1_genomic.fna	ZhejiangRoyalJelly
-data/assemblies/GCF_000002195.4_Amel_4.5_genomic.fna	DH4_Amel_4.5
+data/assemblies/GCA_003314205.2_INRA_AMelMel_1.1_genomic.fna	INRA_AMelMel_1.1
+data/assemblies/GCA_013841245.2_ASM1384124v2_genomic.fna	ASM1384124v2
+data/assemblies/GCA_019321825.1_ASM1932182v1_genomic.fna	ASM1932182v1
+data/assemblies/GCF_000002195.4_Amel_4.5_genomic.fna	Amel_4.5

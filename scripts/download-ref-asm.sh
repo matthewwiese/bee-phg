@@ -22,14 +22,6 @@ unzip -j GCA_013841245.2.zip ncbi_dataset/data/GCA_013841245.2/GCA_013841245.2_A
 datasets download genome accession GCA_003314205.2 --include genome --filename GCA_003314205.2.zip
 unzip -j GCA_003314205.2.zip ncbi_dataset/data/GCA_003314205.2/GCA_003314205.2_INRA_AMelMel_1.1_genomic.fna -d assemblies
 
-# https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000819425.1/
-datasets download genome accession GCA_000819425.1 --include genome --filename GCA_000819425.1.zip
-unzip -j GCA_000819425.1.zip ncbi_dataset/data/GCA_000819425.1/GCA_000819425.1_Ami_v1_genomic.fna -d assemblies
-
-# https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_013841205.1/
-datasets download genome accession GCA_013841205.1 --include genome --filename GCA_013841205.1.zip
-unzip -j GCA_013841205.1.zip ncbi_dataset/data/GCA_013841205.1/GCA_013841205.1_ASM1384120v1_genomic.fna -d assemblies
-
 # https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000002195.4/
 datasets download genome accession GCF_000002195.4 --include genome --filename GCF_000002195.4.zip
 unzip -j GCF_000002195.4.zip ncbi_dataset/data/GCF_000002195.4/GCF_000002195.4_Amel_4.5_genomic.fna -d assemblies
