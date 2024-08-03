@@ -17,6 +17,10 @@ phg prepare-assemblies                       \
     --threads 32
 
 # Compress FASTA files
+# NOTE: If you run into the following error:
+#           Exception in thread "main" java.lang.IllegalArgumentException: Error running ProcessBuilder for agc create or append: Error running ProcessBuilder to compress agc files: 132
+#       It's likely that agc was compiled with an instruction set that your CPU does not support
+#       Compile agc from source (https://github.com/refresh-bio/agc) and adjust your PATH so that your own compiled agc is used instead
 phg agc-compress                                                            \
     --db-path tiledb                                                        \
     --reference-file data/reference/GCF_003254395.2_Amel_HAv3.1_genomic.fna \

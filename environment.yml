@@ -15,4 +15,7 @@ dependencies:
   - anchorwave=1.2.2
   - bcftools
   - samtools
+  # NOTE: Remove this line and recreate the environment if you need to compile agc from source
+  #       because the one on Bioconda doesn't support your available instruction set - i.e. when
+  #       using an old CPU
   - agc=3.1
