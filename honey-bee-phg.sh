@@ -2,6 +2,9 @@
 
 # NOTE: Run this from the root of this repository
 
+# 0. Set up Conda environment and install dependencies
+conda env create -f environment.yml && conda activate phgv2-conda
+
 # 1. Download reference and additional chromosome-level assemblies
 ./scripts/download-ref-asm.sh
 

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-cd data
+mkdir -p data/reference
+mkdir -p data/assemblies
 
-mkdir -p reference
-mkdir -p assemblies
+cd data
 
 # https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_003254395.2/
 datasets download genome accession GCF_003254395.2 --include gff3,genome --filename GCF_003254395.2.zip
