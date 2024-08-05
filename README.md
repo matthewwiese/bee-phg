@@ -1,4 +1,5 @@
 # Bee PHG
+![cool bee gif](https://web.archive.org/web/20090808112448/http://www.geocities.com/gabecam2001/beesunglasses.gif)
 Testing an idea related to [VSH](https://www.ars.usda.gov/southeast-area/baton-rouge-la/honeybeelab/docs/varroa-sensitive-hygiene-vsh/) - work in progress
 
 Currently focused on using all available genomes on NCBI to build the PHG and [BioProject PRJNA605407](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA605407) short reads for imputation. Although perhaps [BioProject PRJNA311274](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA311274) is more useful for a first pass given that we can compare to their VCF? Apparently using drones instead of workers allows for sequencing at lower depth and with greater variant detection, plus reducing phasing complication (Wragg et al. 2022).

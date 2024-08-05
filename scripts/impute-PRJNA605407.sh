@@ -21,6 +21,7 @@ phg map-kmers                              \
     --hvcf-dir data/hvcf                   \
     --kmer-index data/hvcf/kmerIndex.txt   \
     --key-file map_PRJNA605407_keyfile.txt \
+    --threads 32                           \
     --output-dir map/PRJNA605407
 
 # Find paths
@@ -30,6 +31,7 @@ phg find-paths                                    \
     --hvcf-dir data/hvcf                          \
     --reference-genome data/fastas/Amel_HAv3.1.fa \
     --path-type haploid                           \
+    --threads 32                                  \
     --output-dir impute/PRJNA605407/hvcf
 
 # Get SNPs from imputed hVCFs
