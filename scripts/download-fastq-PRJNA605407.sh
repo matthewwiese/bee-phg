@@ -6,195 +6,195 @@ cd data
 mkdir -p fastq/PRJNA605407
 cd fastq/PRJNA605407
 
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/088/SRR11038088/SRR11038088_1.fastq.gz -o SRR11038088_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/088/SRR11038088/SRR11038088_2.fastq.gz -o SRR11038088_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/081/SRR11038181/SRR11038181_1.fastq.gz -o SRR11038181_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/081/SRR11038181/SRR11038181_2.fastq.gz -o SRR11038181_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/072/SRR11038172/SRR11038172_1.fastq.gz -o SRR11038172_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/072/SRR11038172/SRR11038172_2.fastq.gz -o SRR11038172_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/076/SRR11038176/SRR11038176_1.fastq.gz -o SRR11038176_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/076/SRR11038176/SRR11038176_2.fastq.gz -o SRR11038176_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/080/SRR11038180/SRR11038180_1.fastq.gz -o SRR11038180_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/080/SRR11038180/SRR11038180_2.fastq.gz -o SRR11038180_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/075/SRR11038175/SRR11038175_1.fastq.gz -o SRR11038175_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/075/SRR11038175/SRR11038175_2.fastq.gz -o SRR11038175_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/074/SRR11038174/SRR11038174_1.fastq.gz -o SRR11038174_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/074/SRR11038174/SRR11038174_2.fastq.gz -o SRR11038174_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/073/SRR11038173/SRR11038173_1.fastq.gz -o SRR11038173_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/073/SRR11038173/SRR11038173_2.fastq.gz -o SRR11038173_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/077/SRR11038177/SRR11038177_1.fastq.gz -o SRR11038177_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/077/SRR11038177/SRR11038177_2.fastq.gz -o SRR11038177_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/078/SRR11038178/SRR11038178_1.fastq.gz -o SRR11038178_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/078/SRR11038178/SRR11038178_2.fastq.gz -o SRR11038178_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/086/SRR11038086/SRR11038086_1.fastq.gz -o SRR11038086_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/086/SRR11038086/SRR11038086_2.fastq.gz -o SRR11038086_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/079/SRR11038179/SRR11038179_1.fastq.gz -o SRR11038179_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/079/SRR11038179/SRR11038179_2.fastq.gz -o SRR11038179_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/071/SRR11038171/SRR11038171_1.fastq.gz -o SRR11038171_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/071/SRR11038171/SRR11038171_2.fastq.gz -o SRR11038171_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/087/SRR11038087/SRR11038087_1.fastq.gz -o SRR11038087_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/087/SRR11038087/SRR11038087_2.fastq.gz -o SRR11038087_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/090/SRR11038090/SRR11038090_1.fastq.gz -o SRR11038090_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/090/SRR11038090/SRR11038090_2.fastq.gz -o SRR11038090_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/091/SRR11038091/SRR11038091_1.fastq.gz -o SRR11038091_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/091/SRR11038091/SRR11038091_2.fastq.gz -o SRR11038091_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/070/SRR11038170/SRR11038170_1.fastq.gz -o SRR11038170_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/070/SRR11038170/SRR11038170_2.fastq.gz -o SRR11038170_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/068/SRR11038168/SRR11038168_1.fastq.gz -o SRR11038168_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/068/SRR11038168/SRR11038168_2.fastq.gz -o SRR11038168_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/069/SRR11038169/SRR11038169_1.fastq.gz -o SRR11038169_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/069/SRR11038169/SRR11038169_2.fastq.gz -o SRR11038169_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/093/SRR11038093/SRR11038093_1.fastq.gz -o SRR11038093_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/093/SRR11038093/SRR11038093_2.fastq.gz -o SRR11038093_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/067/SRR11038167/SRR11038167_1.fastq.gz -o SRR11038167_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/067/SRR11038167/SRR11038167_2.fastq.gz -o SRR11038167_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/089/SRR11038089/SRR11038089_1.fastq.gz -o SRR11038089_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/089/SRR11038089/SRR11038089_2.fastq.gz -o SRR11038089_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/066/SRR11038166/SRR11038166_1.fastq.gz -o SRR11038166_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/066/SRR11038166/SRR11038166_2.fastq.gz -o SRR11038166_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/092/SRR11038092/SRR11038092_1.fastq.gz -o SRR11038092_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/092/SRR11038092/SRR11038092_2.fastq.gz -o SRR11038092_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/094/SRR11038094/SRR11038094_1.fastq.gz -o SRR11038094_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/094/SRR11038094/SRR11038094_2.fastq.gz -o SRR11038094_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/065/SRR11038165/SRR11038165_1.fastq.gz -o SRR11038165_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/065/SRR11038165/SRR11038165_2.fastq.gz -o SRR11038165_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/095/SRR11038095/SRR11038095_1.fastq.gz -o SRR11038095_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/095/SRR11038095/SRR11038095_2.fastq.gz -o SRR11038095_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/064/SRR11038164/SRR11038164_1.fastq.gz -o SRR11038164_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/064/SRR11038164/SRR11038164_2.fastq.gz -o SRR11038164_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/097/SRR11038097/SRR11038097_1.fastq.gz -o SRR11038097_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/097/SRR11038097/SRR11038097_2.fastq.gz -o SRR11038097_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/062/SRR11038162/SRR11038162_1.fastq.gz -o SRR11038162_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/062/SRR11038162/SRR11038162_2.fastq.gz -o SRR11038162_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/098/SRR11038098/SRR11038098_1.fastq.gz -o SRR11038098_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/098/SRR11038098/SRR11038098_2.fastq.gz -o SRR11038098_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/061/SRR11038161/SRR11038161_1.fastq.gz -o SRR11038161_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/061/SRR11038161/SRR11038161_2.fastq.gz -o SRR11038161_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/059/SRR11038159/SRR11038159_1.fastq.gz -o SRR11038159_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/059/SRR11038159/SRR11038159_2.fastq.gz -o SRR11038159_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/096/SRR11038096/SRR11038096_1.fastq.gz -o SRR11038096_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/096/SRR11038096/SRR11038096_2.fastq.gz -o SRR11038096_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/060/SRR11038160/SRR11038160_1.fastq.gz -o SRR11038160_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/060/SRR11038160/SRR11038160_2.fastq.gz -o SRR11038160_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/099/SRR11038099/SRR11038099_1.fastq.gz -o SRR11038099_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/099/SRR11038099/SRR11038099_2.fastq.gz -o SRR11038099_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/000/SRR11038100/SRR11038100_1.fastq.gz -o SRR11038100_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/000/SRR11038100/SRR11038100_2.fastq.gz -o SRR11038100_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/001/SRR11038101/SRR11038101_1.fastq.gz -o SRR11038101_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/001/SRR11038101/SRR11038101_2.fastq.gz -o SRR11038101_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/057/SRR11038157/SRR11038157_1.fastq.gz -o SRR11038157_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/057/SRR11038157/SRR11038157_2.fastq.gz -o SRR11038157_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/058/SRR11038158/SRR11038158_1.fastq.gz -o SRR11038158_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/058/SRR11038158/SRR11038158_2.fastq.gz -o SRR11038158_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/002/SRR11038102/SRR11038102_1.fastq.gz -o SRR11038102_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/002/SRR11038102/SRR11038102_2.fastq.gz -o SRR11038102_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/004/SRR11038104/SRR11038104_1.fastq.gz -o SRR11038104_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/004/SRR11038104/SRR11038104_2.fastq.gz -o SRR11038104_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/055/SRR11038155/SRR11038155_1.fastq.gz -o SRR11038155_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/055/SRR11038155/SRR11038155_2.fastq.gz -o SRR11038155_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/056/SRR11038156/SRR11038156_1.fastq.gz -o SRR11038156_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/056/SRR11038156/SRR11038156_2.fastq.gz -o SRR11038156_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/003/SRR11038103/SRR11038103_1.fastq.gz -o SRR11038103_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/003/SRR11038103/SRR11038103_2.fastq.gz -o SRR11038103_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/054/SRR11038154/SRR11038154_1.fastq.gz -o SRR11038154_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/054/SRR11038154/SRR11038154_2.fastq.gz -o SRR11038154_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/005/SRR11038105/SRR11038105_1.fastq.gz -o SRR11038105_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/005/SRR11038105/SRR11038105_2.fastq.gz -o SRR11038105_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/052/SRR11038152/SRR11038152_1.fastq.gz -o SRR11038152_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/052/SRR11038152/SRR11038152_2.fastq.gz -o SRR11038152_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/051/SRR11038151/SRR11038151_1.fastq.gz -o SRR11038151_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/051/SRR11038151/SRR11038151_2.fastq.gz -o SRR11038151_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/009/SRR11038109/SRR11038109_1.fastq.gz -o SRR11038109_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/009/SRR11038109/SRR11038109_2.fastq.gz -o SRR11038109_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/053/SRR11038153/SRR11038153_1.fastq.gz -o SRR11038153_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/053/SRR11038153/SRR11038153_2.fastq.gz -o SRR11038153_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/008/SRR11038108/SRR11038108_1.fastq.gz -o SRR11038108_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/008/SRR11038108/SRR11038108_2.fastq.gz -o SRR11038108_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/006/SRR11038106/SRR11038106_1.fastq.gz -o SRR11038106_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/006/SRR11038106/SRR11038106_2.fastq.gz -o SRR11038106_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/050/SRR11038150/SRR11038150_1.fastq.gz -o SRR11038150_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/050/SRR11038150/SRR11038150_2.fastq.gz -o SRR11038150_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/007/SRR11038107/SRR11038107_1.fastq.gz -o SRR11038107_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/007/SRR11038107/SRR11038107_2.fastq.gz -o SRR11038107_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/049/SRR11038149/SRR11038149_1.fastq.gz -o SRR11038149_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/049/SRR11038149/SRR11038149_2.fastq.gz -o SRR11038149_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/010/SRR11038110/SRR11038110_1.fastq.gz -o SRR11038110_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/010/SRR11038110/SRR11038110_2.fastq.gz -o SRR11038110_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/048/SRR11038148/SRR11038148_1.fastq.gz -o SRR11038148_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/048/SRR11038148/SRR11038148_2.fastq.gz -o SRR11038148_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/047/SRR11038147/SRR11038147_1.fastq.gz -o SRR11038147_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/047/SRR11038147/SRR11038147_2.fastq.gz -o SRR11038147_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/012/SRR11038112/SRR11038112_1.fastq.gz -o SRR11038112_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/012/SRR11038112/SRR11038112_2.fastq.gz -o SRR11038112_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/011/SRR11038111/SRR11038111_1.fastq.gz -o SRR11038111_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/011/SRR11038111/SRR11038111_2.fastq.gz -o SRR11038111_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/046/SRR11038146/SRR11038146_1.fastq.gz -o SRR11038146_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/046/SRR11038146/SRR11038146_2.fastq.gz -o SRR11038146_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/045/SRR11038145/SRR11038145_1.fastq.gz -o SRR11038145_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/045/SRR11038145/SRR11038145_2.fastq.gz -o SRR11038145_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/013/SRR11038113/SRR11038113_1.fastq.gz -o SRR11038113_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/013/SRR11038113/SRR11038113_2.fastq.gz -o SRR11038113_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/014/SRR11038114/SRR11038114_1.fastq.gz -o SRR11038114_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/014/SRR11038114/SRR11038114_2.fastq.gz -o SRR11038114_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/044/SRR11038144/SRR11038144_1.fastq.gz -o SRR11038144_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/044/SRR11038144/SRR11038144_2.fastq.gz -o SRR11038144_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/043/SRR11038143/SRR11038143_1.fastq.gz -o SRR11038143_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/043/SRR11038143/SRR11038143_2.fastq.gz -o SRR11038143_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/015/SRR11038115/SRR11038115_1.fastq.gz -o SRR11038115_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/015/SRR11038115/SRR11038115_2.fastq.gz -o SRR11038115_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/018/SRR11038118/SRR11038118_1.fastq.gz -o SRR11038118_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/018/SRR11038118/SRR11038118_2.fastq.gz -o SRR11038118_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/042/SRR11038142/SRR11038142_1.fastq.gz -o SRR11038142_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/042/SRR11038142/SRR11038142_2.fastq.gz -o SRR11038142_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/017/SRR11038117/SRR11038117_1.fastq.gz -o SRR11038117_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/017/SRR11038117/SRR11038117_2.fastq.gz -o SRR11038117_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/041/SRR11038141/SRR11038141_1.fastq.gz -o SRR11038141_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/041/SRR11038141/SRR11038141_2.fastq.gz -o SRR11038141_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/016/SRR11038116/SRR11038116_1.fastq.gz -o SRR11038116_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/016/SRR11038116/SRR11038116_2.fastq.gz -o SRR11038116_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/040/SRR11038140/SRR11038140_1.fastq.gz -o SRR11038140_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/040/SRR11038140/SRR11038140_2.fastq.gz -o SRR11038140_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/020/SRR11038120/SRR11038120_1.fastq.gz -o SRR11038120_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/020/SRR11038120/SRR11038120_2.fastq.gz -o SRR11038120_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/019/SRR11038119/SRR11038119_1.fastq.gz -o SRR11038119_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/019/SRR11038119/SRR11038119_2.fastq.gz -o SRR11038119_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/039/SRR11038139/SRR11038139_1.fastq.gz -o SRR11038139_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/039/SRR11038139/SRR11038139_2.fastq.gz -o SRR11038139_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/021/SRR11038121/SRR11038121_1.fastq.gz -o SRR11038121_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/021/SRR11038121/SRR11038121_2.fastq.gz -o SRR11038121_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/037/SRR11038137/SRR11038137_1.fastq.gz -o SRR11038137_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/037/SRR11038137/SRR11038137_2.fastq.gz -o SRR11038137_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/036/SRR11038136/SRR11038136_1.fastq.gz -o SRR11038136_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/036/SRR11038136/SRR11038136_2.fastq.gz -o SRR11038136_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/038/SRR11038138/SRR11038138_1.fastq.gz -o SRR11038138_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/038/SRR11038138/SRR11038138_2.fastq.gz -o SRR11038138_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/022/SRR11038122/SRR11038122_1.fastq.gz -o SRR11038122_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/022/SRR11038122/SRR11038122_2.fastq.gz -o SRR11038122_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/063/SRR11038163/SRR11038163_1.fastq.gz -o SRR11038163_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/063/SRR11038163/SRR11038163_2.fastq.gz -o SRR11038163_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/027/SRR11038127/SRR11038127_1.fastq.gz -o SRR11038127_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/027/SRR11038127/SRR11038127_2.fastq.gz -o SRR11038127_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/030/SRR11038130/SRR11038130_1.fastq.gz -o SRR11038130_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/030/SRR11038130/SRR11038130_2.fastq.gz -o SRR11038130_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/023/SRR11038123/SRR11038123_1.fastq.gz -o SRR11038123_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/023/SRR11038123/SRR11038123_2.fastq.gz -o SRR11038123_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/034/SRR11038134/SRR11038134_1.fastq.gz -o SRR11038134_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/034/SRR11038134/SRR11038134_2.fastq.gz -o SRR11038134_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/028/SRR11038128/SRR11038128_1.fastq.gz -o SRR11038128_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/028/SRR11038128/SRR11038128_2.fastq.gz -o SRR11038128_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/035/SRR11038135/SRR11038135_1.fastq.gz -o SRR11038135_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/035/SRR11038135/SRR11038135_2.fastq.gz -o SRR11038135_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/029/SRR11038129/SRR11038129_1.fastq.gz -o SRR11038129_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/029/SRR11038129/SRR11038129_2.fastq.gz -o SRR11038129_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/033/SRR11038133/SRR11038133_1.fastq.gz -o SRR11038133_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/033/SRR11038133/SRR11038133_2.fastq.gz -o SRR11038133_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/026/SRR11038126/SRR11038126_1.fastq.gz -o SRR11038126_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/026/SRR11038126/SRR11038126_2.fastq.gz -o SRR11038126_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/025/SRR11038125/SRR11038125_1.fastq.gz -o SRR11038125_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/025/SRR11038125/SRR11038125_2.fastq.gz -o SRR11038125_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/031/SRR11038131/SRR11038131_1.fastq.gz -o SRR11038131_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/031/SRR11038131/SRR11038131_2.fastq.gz -o SRR11038131_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/032/SRR11038132/SRR11038132_1.fastq.gz -o SRR11038132_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/032/SRR11038132/SRR11038132_2.fastq.gz -o SRR11038132_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/024/SRR11038124/SRR11038124_1.fastq.gz -o SRR11038124_Pool-sequencing_of_Apis_Mellifera_Adult_workers_1.fastq.gz
-curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/024/SRR11038124/SRR11038124_2.fastq.gz -o SRR11038124_Pool-sequencing_of_Apis_Mellifera_Adult_workers_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/088/SRR11038088/SRR11038088_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/088/SRR11038088/SRR11038088_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/081/SRR11038181/SRR11038181_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/081/SRR11038181/SRR11038181_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/072/SRR11038172/SRR11038172_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/072/SRR11038172/SRR11038172_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/076/SRR11038176/SRR11038176_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/076/SRR11038176/SRR11038176_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/080/SRR11038180/SRR11038180_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/080/SRR11038180/SRR11038180_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/075/SRR11038175/SRR11038175_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/075/SRR11038175/SRR11038175_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/074/SRR11038174/SRR11038174_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/074/SRR11038174/SRR11038174_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/073/SRR11038173/SRR11038173_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/073/SRR11038173/SRR11038173_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/077/SRR11038177/SRR11038177_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/077/SRR11038177/SRR11038177_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/078/SRR11038178/SRR11038178_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/078/SRR11038178/SRR11038178_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/086/SRR11038086/SRR11038086_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/086/SRR11038086/SRR11038086_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/079/SRR11038179/SRR11038179_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/079/SRR11038179/SRR11038179_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/071/SRR11038171/SRR11038171_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/071/SRR11038171/SRR11038171_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/087/SRR11038087/SRR11038087_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/087/SRR11038087/SRR11038087_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/090/SRR11038090/SRR11038090_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/090/SRR11038090/SRR11038090_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/091/SRR11038091/SRR11038091_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/091/SRR11038091/SRR11038091_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/070/SRR11038170/SRR11038170_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/070/SRR11038170/SRR11038170_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/068/SRR11038168/SRR11038168_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/068/SRR11038168/SRR11038168_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/069/SRR11038169/SRR11038169_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/069/SRR11038169/SRR11038169_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/093/SRR11038093/SRR11038093_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/093/SRR11038093/SRR11038093_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/067/SRR11038167/SRR11038167_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/067/SRR11038167/SRR11038167_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/089/SRR11038089/SRR11038089_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/089/SRR11038089/SRR11038089_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/066/SRR11038166/SRR11038166_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/066/SRR11038166/SRR11038166_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/092/SRR11038092/SRR11038092_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/092/SRR11038092/SRR11038092_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/094/SRR11038094/SRR11038094_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/094/SRR11038094/SRR11038094_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/065/SRR11038165/SRR11038165_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/065/SRR11038165/SRR11038165_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/095/SRR11038095/SRR11038095_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/095/SRR11038095/SRR11038095_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/064/SRR11038164/SRR11038164_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/064/SRR11038164/SRR11038164_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/097/SRR11038097/SRR11038097_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/097/SRR11038097/SRR11038097_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/062/SRR11038162/SRR11038162_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/062/SRR11038162/SRR11038162_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/098/SRR11038098/SRR11038098_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/098/SRR11038098/SRR11038098_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/061/SRR11038161/SRR11038161_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/061/SRR11038161/SRR11038161_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/059/SRR11038159/SRR11038159_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/059/SRR11038159/SRR11038159_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/096/SRR11038096/SRR11038096_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/096/SRR11038096/SRR11038096_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/060/SRR11038160/SRR11038160_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/060/SRR11038160/SRR11038160_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/099/SRR11038099/SRR11038099_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/099/SRR11038099/SRR11038099_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/000/SRR11038100/SRR11038100_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/000/SRR11038100/SRR11038100_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/001/SRR11038101/SRR11038101_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/001/SRR11038101/SRR11038101_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/057/SRR11038157/SRR11038157_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/057/SRR11038157/SRR11038157_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/058/SRR11038158/SRR11038158_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/058/SRR11038158/SRR11038158_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/002/SRR11038102/SRR11038102_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/002/SRR11038102/SRR11038102_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/004/SRR11038104/SRR11038104_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/004/SRR11038104/SRR11038104_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/055/SRR11038155/SRR11038155_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/055/SRR11038155/SRR11038155_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/056/SRR11038156/SRR11038156_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/056/SRR11038156/SRR11038156_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/003/SRR11038103/SRR11038103_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/003/SRR11038103/SRR11038103_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/054/SRR11038154/SRR11038154_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/054/SRR11038154/SRR11038154_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/005/SRR11038105/SRR11038105_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/005/SRR11038105/SRR11038105_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/052/SRR11038152/SRR11038152_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/052/SRR11038152/SRR11038152_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/051/SRR11038151/SRR11038151_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/051/SRR11038151/SRR11038151_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/009/SRR11038109/SRR11038109_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/009/SRR11038109/SRR11038109_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/053/SRR11038153/SRR11038153_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/053/SRR11038153/SRR11038153_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/008/SRR11038108/SRR11038108_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/008/SRR11038108/SRR11038108_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/006/SRR11038106/SRR11038106_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/006/SRR11038106/SRR11038106_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/050/SRR11038150/SRR11038150_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/050/SRR11038150/SRR11038150_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/007/SRR11038107/SRR11038107_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/007/SRR11038107/SRR11038107_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/049/SRR11038149/SRR11038149_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/049/SRR11038149/SRR11038149_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/010/SRR11038110/SRR11038110_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/010/SRR11038110/SRR11038110_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/048/SRR11038148/SRR11038148_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/048/SRR11038148/SRR11038148_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/047/SRR11038147/SRR11038147_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/047/SRR11038147/SRR11038147_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/012/SRR11038112/SRR11038112_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/012/SRR11038112/SRR11038112_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/011/SRR11038111/SRR11038111_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/011/SRR11038111/SRR11038111_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/046/SRR11038146/SRR11038146_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/046/SRR11038146/SRR11038146_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/045/SRR11038145/SRR11038145_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/045/SRR11038145/SRR11038145_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/013/SRR11038113/SRR11038113_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/013/SRR11038113/SRR11038113_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/014/SRR11038114/SRR11038114_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/014/SRR11038114/SRR11038114_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/044/SRR11038144/SRR11038144_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/044/SRR11038144/SRR11038144_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/043/SRR11038143/SRR11038143_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/043/SRR11038143/SRR11038143_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/015/SRR11038115/SRR11038115_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/015/SRR11038115/SRR11038115_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/018/SRR11038118/SRR11038118_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/018/SRR11038118/SRR11038118_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/042/SRR11038142/SRR11038142_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/042/SRR11038142/SRR11038142_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/017/SRR11038117/SRR11038117_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/017/SRR11038117/SRR11038117_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/041/SRR11038141/SRR11038141_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/041/SRR11038141/SRR11038141_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/016/SRR11038116/SRR11038116_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/016/SRR11038116/SRR11038116_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/040/SRR11038140/SRR11038140_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/040/SRR11038140/SRR11038140_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/020/SRR11038120/SRR11038120_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/020/SRR11038120/SRR11038120_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/019/SRR11038119/SRR11038119_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/019/SRR11038119/SRR11038119_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/039/SRR11038139/SRR11038139_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/039/SRR11038139/SRR11038139_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/021/SRR11038121/SRR11038121_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/021/SRR11038121/SRR11038121_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/037/SRR11038137/SRR11038137_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/037/SRR11038137/SRR11038137_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/036/SRR11038136/SRR11038136_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/036/SRR11038136/SRR11038136_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/038/SRR11038138/SRR11038138_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/038/SRR11038138/SRR11038138_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/022/SRR11038122/SRR11038122_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/022/SRR11038122/SRR11038122_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/063/SRR11038163/SRR11038163_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/063/SRR11038163/SRR11038163_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/027/SRR11038127/SRR11038127_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/027/SRR11038127/SRR11038127_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/030/SRR11038130/SRR11038130_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/030/SRR11038130/SRR11038130_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/023/SRR11038123/SRR11038123_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/023/SRR11038123/SRR11038123_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/034/SRR11038134/SRR11038134_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/034/SRR11038134/SRR11038134_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/028/SRR11038128/SRR11038128_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/028/SRR11038128/SRR11038128_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/035/SRR11038135/SRR11038135_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/035/SRR11038135/SRR11038135_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/029/SRR11038129/SRR11038129_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/029/SRR11038129/SRR11038129_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/033/SRR11038133/SRR11038133_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/033/SRR11038133/SRR11038133_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/026/SRR11038126/SRR11038126_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/026/SRR11038126/SRR11038126_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/025/SRR11038125/SRR11038125_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/025/SRR11038125/SRR11038125_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/031/SRR11038131/SRR11038131_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/031/SRR11038131/SRR11038131_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/032/SRR11038132/SRR11038132_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/032/SRR11038132/SRR11038132_2.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/024/SRR11038124/SRR11038124_1.fastq.gz
+wget -c ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/024/SRR11038124/SRR11038124_2.fastq.gz
