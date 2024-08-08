@@ -30,6 +30,13 @@ So maybe I should start with the Wragg et al. data as they provide a VCF with ma
     * VCF with filtered 7 million SNPs and 870 haploid drone samples: https://doi.org/10.5281/zenodo.5592452
     * SRA: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA311274
 
+* [AmelHap: Leveraging drone whole-genome sequence data to create a honey bee HapMap](https://www.nature.com/articles/s41597-023-02097-z)
+    * I think this can be used to follow a similar methodology used by [Long et al. 2022](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8728015/) for comparing imputation accuracy to Beagle. Page 4:
+        > Because imputation accuracy is dependent on the relative allele frequency and phase of the allele being called, we classified genotype calls by allele frequency class: homozygous major (both alleles are identical and have >50% allele frequency in HapMapII), homozygous minor (both alleles are identical and have <50% allele frequency in HapMapII), and heterozygous (two different alleles are present). In our analyses, imputation accuracy is defined as the ability of the imputation method to reconstitute genome-wide SNPs from the input data. We use the correlation between the predicted alleles and the true alleles (defined by HapMapII) as a metric to make the PHG and Beagle comparable, because the PHG utilizes reads and Beagle utilizes variants to make their predictions.
+
+    * [Beebytes press release](https://beebytes.org/articles/amelhap-a-new-haplotype-map-for-honeybees/)
+    * VCF: https://zenodo.org/records/7615208
+
 * [Genetic markers for the resistance of honey bee to Varroa destructor](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8763714/)
     * Table top of page 5 of interest
 
