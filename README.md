@@ -31,9 +31,11 @@ So maybe I should start with the Wragg et al. data as they provide a VCF with ma
     * SRA: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA311274
 
 * [AmelHap: Leveraging drone whole-genome sequence data to create a honey bee HapMap](https://www.nature.com/articles/s41597-023-02097-z)
-    * I think this can be used to follow a similar methodology used by [Long et al. 2022](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8728015/) for comparing imputation accuracy to Beagle. Page 4:
-        > Because imputation accuracy is dependent on the relative allele frequency and phase of the allele being called, we classified genotype calls by allele frequency class: homozygous major (both alleles are identical and have >50% allele frequency in HapMapII), homozygous minor (both alleles are identical and have <50% allele frequency in HapMapII), and heterozygous (two different alleles are present). In our analyses, imputation accuracy is defined as the ability of the imputation method to reconstitute genome-wide SNPs from the input data. We use the correlation between the predicted alleles and the true alleles (defined by HapMapII) as a metric to make the PHG and Beagle comparable, because the PHG utilizes reads and Beagle utilizes variants to make their predictions.
+    > We have demonstrated that by using AmelHap to impute high levels of missing data (61%), very high genotype concordance ( > 95%) can be achieved in drones. We also demonstrate the resource to be effective at imputing moderate levels of missing data (12%) in an independent diploid dataset. We have not extensively investigated the parameter space for imputation, or the full range of tools available, and so further improvements on imputation performance are likely achievable.
 
+    * See figure 4a on page 8, comparing [SHAPEIT](https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html) to Beagle
+    * I think this can be used to follow a similar methodology used by [Long et al. 2022](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8728015/) for comparing imputation accuracy to Beagle (see page 4 subheading "Imputation and genomic prediction accuracy"):
+    * Code: https://bitbucket.org/renzo_tale/bagpipe and https://bitbucket.org/gibberwocky/amelhap
     * [Beebytes press release](https://beebytes.org/articles/amelhap-a-new-haplotype-map-for-honeybees/)
     * VCF: https://zenodo.org/records/7615208
 
